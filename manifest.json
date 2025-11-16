@@ -1,5 +1,14 @@
 {
   "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dc-native-emoji",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
   "name": "Discord Native Emoji",
   "version": "0.1",
   "description": "Replaces the twemoji renders on Discord with the system's native emojis.",
